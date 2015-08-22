@@ -1,0 +1,7 @@
+SOURCELONG:IdleNexus Gaming	SOURCESHORT:IG	SOURCEWEB:http://www.idlenexus.net	SOURCEDATE:2015-08
+
+Awakened Dragon		CR:0			TEMPLATE:CHOOSE:Awakened Dragon Flight	SOURCEPAGE:p.	DEFINE:NoTypeTraits|0	PREMULT:1,[PRETEMPLATE:1,Awakened Dragon],[!PRERACE:1,RACETYPE=Construct,RACETYPE=Dragon,RACETYPE=Undead,RACESUBTYPE=Incorporeal]	BONUS:ABILITYPOOL|Awakened Dragon Type|1	BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK	BONUS:STAT|CON,CHA|2	BONUS:STAT|CON,INT|2|PRELEVEL:MIN=9	BONUS:VAR|NoTypeTraits|1	ABILITY:Special Ability|AUTOMATIC|Awakened Dragon Traits	RACETYPE:Dragon
+
+Awakened Dragon Flight	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|3	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	MOVECLONE:Walk,Fly,*1
+
+Bronze Awakened Dragon	VISIBLE:NO	SUBRACE:Awakened Bronze Dragon

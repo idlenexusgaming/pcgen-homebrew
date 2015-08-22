@@ -1,0 +1,42 @@
+CAMPAIGN:IdleNexus Gaming
+GAMEMODE:Pathfinder
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING:IdleNexus Gaming Homebrew Campaign
+TYPE:Homebrew.PathfinderHomebrew
+PUBNAMELONG:IdleNexus Gaming
+PUBNAMESHORT:IdleNexus
+PUBNAMEWEB:http://www.idlenexus.net
+SOURCELONG:IdleNexus Gaming
+SOURCESHORT:IG
+SOURCEWEB:http://www.idlenexus.net
+SOURCEDATE:2015-08
+ISOGL:NO
+COPYRIGHT:IdleNexus Gaming, Copyright 2015 by IdleNexus Gaming
+
+INFOTEXT:This contains customizations made for my homebrew campaign. It is also an LST learning venture.
+
+ABILITY:ig_abilities.lst
+ABILITY:ig_abilities_race.lst
+ABILITYCATEGORY:ig_abilitycategories.lst
+#BIOSET:ig_biosettings.lst
+#CLASS:ig_classes.lst
+#COMPANIONMOD:ig_companionmods.lst
+#DEITY:ig_deities.lst
+#DOMAIN:ig_domains.lst
+#EQUIPMENT:ig_equip_arms_armor.lst
+#EQUIPMENT:ig_equip_general.lst
+#EQUIPMENT:ig_equip_magic_items.lst
+#EQUIPMOD:ig_equipmods.lst
+#ABILITY:ig_feats.lst
+#KIT:ig_kits.lst
+#LANGUAGE:ig_languages.lst
+#RACE:ig_races.lst
+#SKILL:ig_skills.lst
+#SPELL:ig_spells.lst
+TEMPLATE:ig_templates.lst
+
+#ARMORPROF:ig_profs_armor.lst
+#SHIELDPROF:ig_profs_shield.lst
+#WEAPONPROF:ig_profs_weapon.lst
