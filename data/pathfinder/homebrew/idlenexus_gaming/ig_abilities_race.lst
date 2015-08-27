@@ -2,8 +2,12 @@ SOURCELONG:IdleNexus Gaming	SOURCESHORT:IG	SOURCEWEB:http://www.idlenexus.net	SO
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Awakened Dragon Traits|PRERACE:1,RACETYPE=Dragon
 
-Awakened Dragon Traits	CATEGORY:Special Ability	VISIBLE:NO	BONUS:VAR|RaceType_Dragon|1	DEFINE:RaceType_Dragon|0	ABILITY:Special Ability|AUTOMATIC|Awakened Dragon Traits Output|PRERULE:1,DISPLAYTYPETRAITS	ABILITY:Special Ability|AUTOMATIC|Immunity to Magical Sleep	BONUS:VAR|HasLowLightVision|1	SOURCEPAGE:p.
+Awakened Dragon Traits	CATEGORY:Special Ability	VISIBLE:NO	BONUS:VAR|RaceType_Dragon|1	DEFINE:RaceType_Dragon|0	ABILITY:Special Ability|AUTOMATIC|Awakened Dragon Traits Output|PRERULE:1,DISPLAYTYPETRAITS	ABILITY:Special Ability|AUTOMATIC|Immunity to Magical Sleep	BONUS:VAR|HasLowLightVision|1	BONUS:VAR|DarkvisionRange|-60		SOURCEPAGE:p.
 
-Awakened Dragon Traits Output	OUTPUTNAME:Awakened Dragon Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Dragons have Immunity to magic sleep effects. Dragons breathe, eat, and sleep.	SOURCEPAGE:p.
+Awakened Dragon Traits Output	OUTPUTNAME:Awakened Dragon Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Awakaned Dragons have Immunity to magic sleep effects. Awakened Dragons breathe, eat, and sleep.	SOURCEPAGE:p.
 
-Bronze Awakened Dragon	CATEGORY:Internal	TYPE:AwakenedDragonType	VISIBLE:DISPLAY	TEMPLATE:Bronze Awakened Dragon	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Lightning|PRELEVEL:MIN=9	BONUS:VAR|BreathWeaponDice|HD	BONUS:VAR|BreathWeaponDice|1|PREVAREQ:HD,0	BONUS:VAR|BreathWeaponDamageDie|6	BONUS:VAR|BreathWeaponLine|60	SOURCEPAGE:p.170
+Bronze Awakened Dragon	CATEGORY:Internal	TYPE:AwakenedDragonType	VISIBLE:DISPLAY	TEMPLATE:Bronze Awakened Dragon	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Lightning|PRELEVEL:MIN=9	BONUS:VAR|BreathWeaponDice|1|PREVAREQ:HD,0	BONUS:VAR|BreathWeaponDamageDie|6	BONUS:VAR|BreathWeaponLine|60	BONUS:VAR|BreathWeaponTimes|1	SOURCEPAGE:p.
+
+Awakened Dragon Wings	CATEGORY:Special Ability	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|3	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	MOVECLONE:Walk,Fly,*1	ABILITY:Special Ability|AUTOMATIC|Awakened Dragon Wings Output|PRERULE:1,DISPLAYTYPETRAITS	DEFINE:DragonWingsSpeed|0	BONUS:VAR|DragonWingsSpeed|30*(2*(TL>=12))	SOURCEPAGE:p.
+
+Awakened Dragon Wings Output	OUTPUTNAME:Awakened Dragon Wings	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Awakened Dragons have wings and can fly at a speed of  feet with average maneuverability. You can dismiss the wings as a free action.|DragonWingsSpeed	SOURCEPAGE:p.

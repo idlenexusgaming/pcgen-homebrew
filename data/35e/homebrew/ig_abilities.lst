@@ -1,0 +1,4 @@
++1 Bonus Feat	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability	MULT:YES	CHOOSE:NOCHOICE	STACK:YES	BONUS:ABILITYPOOL|FEAT|1	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 feat.
++1 Skill Rank	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability	MULT:YES	CHOOSE:SKILL|TYPE=Base	STACK:YES	BONUS:SKILLRANK|%LIST|1	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 skill rank (won't exceed max ranks).
++1 Skill Bonus	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability	MULT:YES	CHOOSE:SKILL|TYPE=Base	STACK:YES	BONUS:SKILL|%LIST|1	SORTKEY:Z_Award COST:0	DESC:GM awarded PC with +1 skill bonus.
++1 Bonus Trait		SORTKEY:Z_Award	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	DESC:GM awarded PC with +1 trait bonus.	MULT:YES	CHOOSE:ABILITYSELECTION|Special Ability|TYPE=Trait	ABILITY:Special Ability|VIRTUAL|%LIST	COST:0
